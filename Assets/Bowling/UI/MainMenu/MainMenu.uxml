@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bowling/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=6317d9272741b274993aec0fdc61a176&amp;type=3#MainMenu" />
+    <ui:VisualElement name="VisualElement" class="screen">
+        <ui:Label text="Bowling\nTimes" display-tooltip-when-elided="true" name="Title" class="title" style="font-size: 50px; -unity-font: none; -unity-font-style: normal; -unity-font-definition: url(&apos;project://database/Assets/UI/fonts/cartoon/orange%20juice%202.asset?fileID=11400000&amp;guid=3752f3532791d5542b8f5e5773206ccc&amp;type=2#orange juice 2&apos;);" />
+        <ui:VisualElement name="ButtonPanel" class="buttonPanel">
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="StartButton" class="mainButton" style="-unity-font-definition: url(&apos;project://database/Assets/UI/fonts/cartoon/orange%20juice%202.asset?fileID=11400000&amp;guid=3752f3532791d5542b8f5e5773206ccc&amp;type=2#orange juice 2&apos;); -unity-font-style: normal;" />
+            <ui:Button text="Stats" display-tooltip-when-elided="true" name="Clasification" class="mainButton" style="-unity-font-definition: url(&apos;project://database/Assets/UI/fonts/cartoon/orange%20juice%202.asset?fileID=11400000&amp;guid=3752f3532791d5542b8f5e5773206ccc&amp;type=2#orange juice 2&apos;); -unity-font-style: normal;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" class="mainButton" style="-unity-font-definition: url(&apos;project://database/Assets/UI/fonts/cartoon/orange%20juice%202.asset?fileID=11400000&amp;guid=3752f3532791d5542b8f5e5773206ccc&amp;type=2#orange juice 2&apos;); -unity-font-style: normal;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

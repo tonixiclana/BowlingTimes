@@ -1,0 +1,52 @@
+* {
+	--black-chocolate: #1d1e18;
+	--russian-green: #6b8f71;
+	--turquoise-green: #aad2ba;
+	--light-cyan: #d9fff5;
+	--magic-mint: #b9f5d8;
+}
+.screen{
+	background-color: rgba(255,255,255,0.3); 
+	flex-basis: 100%;
+	padding: 5% 5% 10% 5%;
+}
+
+.buttonPanel{
+	position: relative;
+	flex-basis: 100%;
+	padding: 0 25% 0 25%;
+	justify-content: center;
+}
+
+.mainButton {
+	background-color: transparent;
+	color: var(--black-chocolate);
+	border-width: 2px;
+	margin: 0 0 5% 0;
+	border-radius: 5px;
+	border-color: transparent;
+	font-size: 35px;
+	transition-property: background-color, color;
+    transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+.mainButton:hover {
+	background-color: transparent;
+	color: var(--black-chocolate);
+	border-width: 2px;
+	margin: 0 0 5% 0;
+	border-radius: 5px;
+	border-color:  var(--black-chocolate);
+	font-size: 35px;
+	transition-property: border-color;
+    transition-duration: 3s;
+	transition-timing-function: ease-out;
+}
+
+.title {
+	color: black;
+	font-size: 50px;
+	margin: 20% 0 0 0;
+	-unity-text-align: middle-center;
+}

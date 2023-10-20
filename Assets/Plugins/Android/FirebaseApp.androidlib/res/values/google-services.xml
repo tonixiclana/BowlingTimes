@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">430683371093</string>
+  <string name="google_storage_bucket" translatable="false">bowling-cd016.appspot.com</string>
+  <string name="project_id" translatable="false">bowling-cd016</string>
+  <string name="google_api_key" translatable="false">AIzaSyBErECN8844r8yIqSbH6lz8qHQy0o-SJDE</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBErECN8844r8yIqSbH6lz8qHQy0o-SJDE</string>
+  <string name="google_app_id" translatable="false">1:430683371093:android:ed0995656d5e23d75206dc</string>
+  <string name="default_web_client_id" translatable="false">430683371093-043r3m0i4f5igjbaa8618m2ehkl9gqhk.apps.googleusercontent.com</string>
+</resources>
